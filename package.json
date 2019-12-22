@@ -1,0 +1,30 @@
+{
+  "name": "simple-node-reload-and-refresh",
+  "version": "1.0.0",
+  "description": "Simple template for node.js applications that reloads node app and refreshes browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-refresh index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janpi242/simple-node-reload-and-refresh.git"
+  },
+  "keywords": [
+    "node",
+    "reload",
+    "refresh",
+    "simple",
+    "template"
+  ],
+  "author": "Piotr Janas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janpi242/simple-node-reload-and-refresh/issues"
+  },
+  "homepage": "https://github.com/janpi242/simple-node-reload-and-refresh#readme",
+  "dependencies": {
+    "browser-refresh": "^1.7.3"
+  }
+}
